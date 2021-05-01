@@ -1,0 +1,19 @@
+.navLinks{
+    width: 50%;
+}
+.navbar{
+    width: 70%;
+    margin: 0% auto;
+}
+.topLinks{
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(18, 36, 72);
+    font-weight: 500;
+    transition: .3s all ease-in;
+}
+
+.topLinks:hover{
+    background-color: rgb(240, 171, 178);
+
+}

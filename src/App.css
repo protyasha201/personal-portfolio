@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@900&display=swap');
+
+*{
+    text-decoration: none;
+}
+.app{
+    background: url('./images/bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*font sizes*/
+
+.f-10{
+    font-size: 10px;
+}
+.f-15{
+    font-size: 15px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-30{
+    font-size: 30px;
+}
+.f-40{
+    font-size: 40px;
+}
+.f-50{
+    font-size: 50px;
+}
+/*texts align*/
+.text-center{
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-left{
+    text-align: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*texts color*/
+.text-gray{
+    color: rgb(184, 178, 178);
+}
+.text-white{
+    color: white;
+}
+.text-black{
+    color: black;
+}
+.text-bluish{
+    color: rgb(33, 33, 87);
+}
+.text-coral{
+    color: coral;
+}
+.text-orange{
+    color: rgb(236, 166, 35);
+}
+.text-cornBlue{
+    color: cornflowerblue;
+}
+.text-tomato{
+    color: tomato;
+}
+.text-crimson{
+    color: crimson;
 }
 
-.App-link {
-  color: #61dafb;
+/*displays */
+.m-align{
+    margin: 0% auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-content-space{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.align-center{
+    align-items: center;
+}
+/*font weights */
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-600{
+    font-weight: 600;
+}
+.font-700{
+    font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*width*/
+.width-20{
+    width: 20%;
+}
+.width-30{
+    width: 30%;
+}
+.width-40{
+    width: 40%;
+}
+.width-50{
+    width: 50%;
+}
+
+/*fonts */
+.roboto-condensed{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*paddings */
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
 }
