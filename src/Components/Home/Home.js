@@ -7,7 +7,7 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 const Home = () => {
     const aboutMe = {
-        description: `Hey, I am Protyasha. I am a web developer. It's my passion to learn new things about technology and apply them with my creativity. Now I am making interactive web-apps and websites.`
+        description: `Hey, I am Protyasha. I am a web developer. I love to learn new things about technology and apply them with my creativity. Now I am making interactive web-apps and websites using trending libraries and frameworks.`
     }
     const AnimatedTypingComponent = () => (
         <Typing>
@@ -37,9 +37,9 @@ const Home = () => {
                     {
                         <p>{aboutMe.description}</p>
                     }
-                    <button className="downloadResumeBtn">Download Resume</button>
+                    <a href="https://drive.google.com/file/d/1Bo83ahVAKJFbAxG-ijat6EbH_qlTlY1Y/view?usp=sharing" download className="downloadResumeBtn">Download Resume</a>
                 </div>
-                <div className="width-50 montserrat d-flex">
+                <div className="width-50 montserrat d-flex shortContact">
                     <div className="width-50">
                         <h4>Age</h4>
                         <h4>Residence</h4>
@@ -52,7 +52,7 @@ const Home = () => {
                         <h4>Bangladesh</h4>
                         <h4>Dinajpur, Bangladesh</h4>
                         <h4>01866557428</h4>
-                        <h4>protyasha0999@gmail.com</h4>
+                        <a href="protyasha0999@gmal.com">protyasha0999@gmail.com</a>
                     </div>
                 </div>
             </div>

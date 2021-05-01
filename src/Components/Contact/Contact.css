@@ -1,0 +1,61 @@
+.contactSection{
+    background-color: rgb(9, 13, 24);
+    padding: 30px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 50px rgba(26, 25, 25, 0.5);
+}
+.icons{
+    font-size: 22px;
+    margin-right: 10px;
+}
+.contactSection input, textarea{
+    background-color: rgb(24, 25, 49);
+    margin-top: 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    border-left: white 3px solid;
+    padding: 10px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.contactSection input::placeholder{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(103, 104, 107);
+}
+
+.sendMessageBtn{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 120px;
+    font-family: monospace;
+    background-color: rgb(67, 61, 61);
+    color: white;
+}
+.socialIcons{
+    transition: all .3s ease-out;
+}
+.socialIcons:hover{
+    transform: translate(0, -3px);
+}
+.generalContact{
+    width: 50%;
+}
+@media screen and (max-width: 700px) {
+    .contactSection{
+        flex-direction: column;
+        width: 80%;
+    }
+    .generalContact{
+        width: 100%;
+    }
+    .contactSection input, textarea{
+        width: 350px;
+    }
+}

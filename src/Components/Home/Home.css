@@ -1,27 +1,29 @@
 .homePage{
     width: 70%;
-    margin: 0% auto;
+    margin: 50px auto;
     border-radius: 20px;
+    box-shadow: rgba(73, 72, 72, 0.3) 1px 1px 10px;
+    z-index: 10;
 }
 
 .homeHeader{
-    background-image: linear-gradient(160deg, rgb(160, 160, 204), rgb(96, 214, 96));
     padding: 20px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     font-family: 'Roboto Mono', monospace;
+    background-color: rgb(23, 62, 100);
 }
 
 .profileImage{
     width: 40%;
+    position:relative;
+    top: 50px;
 }
 
 .profileImage img{
     width: 60%;
     transition: .4s all ease-in-out;
     border-radius: 5px;
-    position:relative;
-    top: 50px;
 }
 
 .profileImage img:hover{
@@ -42,7 +44,7 @@
     border-radius: 60%;
     font-size: 20px;
     background-color: white;
-    box-shadow: 1px 1px 10px rgba(73, 72, 72, 0.9);
+    box-shadow: 1px 1px 5px rgba(73, 72, 72, 0.5);
     color: rgb(68, 68, 192);
     transition: all .3s ease-out;
 }
@@ -57,6 +59,8 @@
     font-family: 'Roboto', sans-serif;
     background-color: white;
     padding: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .info h4{
@@ -76,11 +80,68 @@
     border-radius: 5px;
     font-size: 20px;
     padding: 5px;
-    transition: all ease-in-out .3s;
+    transition: all ease-out .3s;
     color: white;
 }
 
 .downloadResumeBtn:hover{
-    transform: translate(0, -4px);
-    box-shadow: 1px 1px 5px rgba(73, 72, 72, 0.9);
+    box-shadow: 1px 1px 5px rgba(61, 14, 14, 0.8);
+}
+
+@media screen and (max-width: 500px) {
+    .homePage{
+        width: 90%;
+    }
+    .homeHeader{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileImage{
+        width: 100%;
+        top: 0%;
+    }
+    .shortInfo{
+        width: 100%;
+    }
+    .contactLinks{
+        width: 70%;
+    }
+    .shortDescription{
+        flex-direction: column;
+    }
+    .aboutShort{
+        width: 90%;
+    }
+    .shortContact{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+    .homePage{
+        width: 90%;
+    }
+    .homeHeader{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profileImage{
+        width: 50%;
+        top: 0%;
+    }
+    .shortInfo{
+        width: 100%;
+    }
+    .contactLinks{
+        width: 30%;
+    }
+    .shortDescription{
+        flex-direction: column;
+    }
+    .aboutShort{
+        width: 90%;
+    }
+    .shortContact{
+        width: 100%;
+    }
 }

@@ -1,0 +1,28 @@
+.resumeSection{
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(19, 19, 55);
+}
+.titleResume{
+    border-bottom: 2px solid white;
+    display: inline-block;
+}
+.profileIcons{
+    transition:all .3s ease-out;
+}
+.profileIcons:hover{
+    transform: translate(0, -4px);
+}
+.experienceContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    align-items: center;
+    margin-top: 50px;
+    justify-items: center;
+}
+.experiences:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -6,11 +7,11 @@ const Navbar = () => {
         <nav className="navbar d-flex justify-content-around align-center">
             <h2 className="roboto-condensed text-bluish">Protyasha <span className="text-coral">Roy</span></h2>
             <div className="navLinks justify-content-evenly d-flex">
-                <a className="topLinks" href="#">Home</a>
-                <a className="topLinks" href="#">Resume</a>
-                <a className="topLinks" href="#">Projects</a>
-                <a className="topLinks" href="#">Blogs</a>
-                <a className="topLinks" href="#">Contact</a>
+                <Link to="/" className="topLinks" >Home</Link>
+                <Link to="/resume" className="topLinks" >Resume</Link>
+                <Link to="/projects" className="topLinks" >Projects</Link>
+                <Link to="/blogs" className="topLinks" >Blogs</Link>
+                <Link to="/contact" className="topLinks" >Contact</Link>
             </div>
         </nav>
     );
