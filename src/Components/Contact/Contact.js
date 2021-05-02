@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="d-flex flex-col generalContact">
                 <h1 className="text-coral">Contact Me <br /><span className="text-white">If You Want To Know Something More.</span></h1>
                 <div className="d-flex flex-col">
-                    <a className="text-white" href="protyasha0999@gmail.com"><FontAwesomeIcon className="icons text-coral" icon={faMailBulk} />protyasha0999@gmail.com</a>
+                    <p><FontAwesomeIcon className="icons text-coral" icon={faMailBulk} />protyasha0999@gmail.com</p>
                     <p><FontAwesomeIcon className="icons text-white" icon={faPhone} />01866557428</p>
                     <p><FontAwesomeIcon className="icons text-crimson" icon={faMapMarker} />Dinajpur,Bangladesh</p>
                 </div>
@@ -34,9 +34,9 @@ const Contact = () => {
             </div>
             <div className="width-50">
                 <h1 className="text-coral">Let's Talk</h1>
-                <form onSubmit={sendMessage} className="d-flex flex-col">
+                <form onSubmit={sendMessage} className="d-flex flex-col form">
                     <input type="text" name="name" placeholder="Your Name" required />
-                    <input type="text" name="email" placeholder="e-Mail" required />
+                    <input type="text" name="email" placeholder="Your e-Mail" required />
                     <textarea className="textarea" type="text" name="message" placeholder="Type Message" required />
                     <button className="sendMessageBtn" type="submit">Send Message</button>
                 </form>

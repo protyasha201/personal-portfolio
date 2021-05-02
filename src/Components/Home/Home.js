@@ -25,9 +25,9 @@ const Home = () => {
                     <AnimatedTypingComponent />
                     <p className="text-white">Full Stack Web Developer</p>
                     <div className="d-flex justify-content-evenly contactLinks">
-                        <a href="#" ><FontAwesomeIcon icon={faFacebook} /></a>
-                        <a href="#" ><FontAwesomeIcon icon={faTwitter} /></a>
-                        <a href="" ><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a href="#" ><FontAwesomeIcon icon={faFacebook} className="text-crimson" /></a>
+                        <a href="#" ><FontAwesomeIcon icon={faTwitter} className="text-coral" /></a>
+                        <a href="" ><FontAwesomeIcon icon={faInstagram} className="text-cornBlue" /></a>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ const Home = () => {
                         <h4>Bangladesh</h4>
                         <h4>Dinajpur, Bangladesh</h4>
                         <h4>01866557428</h4>
-                        <a href="protyasha0999@gmal.com">protyasha0999@gmail.com</a>
+                        <p>protyasha0999@gmail.com</p>
                     </div>
                 </div>
             </div>

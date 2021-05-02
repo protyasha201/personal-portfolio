@@ -2,6 +2,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Resume.css';
+import Skills from './Skills/Skills';
 
 const Resume = () => {
     const experiences = [
@@ -25,9 +26,9 @@ const Resume = () => {
 
     return (
         <section className="resumeSection  width-70 m-align brr-10">
-            <div className="d-flex justify-content-space">
+            <div className="d-flex justify-content-space resumeHead">
                 <h1 className="robot-condensed text-white titleResume">Resume</h1>
-                <div className="d-flex align-center justify-content-evenly borderWhite width-20 p-5 brr-10">
+                <div className="d-flex align-center justify-content-evenly borderWhite width-20 p-5 brr-10 profiles">
                     <a className="profileIcons text-coral f-30" href="#">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
@@ -38,17 +39,18 @@ const Resume = () => {
                 </div>
             </div>
             <div className="montserrat">
-                <h1 className="text-coral text-center">Experiences</h1>
+                <h1 className="text-coral text-center">EXPERIENCES</h1>
                 <div className="experienceContainer">
                     {
                         experiences.map(experience =>
                             <div className="experiences width-80 p-20" key={experience.title}>
-                                <h3 className="text-cornBlue">{experience.title}</h3>
+                                <h2 className="text-crimson">{experience.title}</h2>
                                 <p className="text-gray">{experience.des}</p>
                             </div>)
                     }
                 </div>
             </div>
+            <Skills />
         </section>
     );
 };

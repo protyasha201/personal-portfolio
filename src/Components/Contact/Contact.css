@@ -8,7 +8,7 @@
     font-size: 22px;
     margin-right: 10px;
 }
-.contactSection input, textarea{
+.form input, textarea{
     background-color: rgb(24, 25, 49);
     margin-top: 20px;
     border: none;
@@ -55,7 +55,7 @@
     .generalContact{
         width: 100%;
     }
-    .contactSection input, textarea{
-        width: 350px;
+    .form input, textarea{
+       width: 300px;
     }
 }
