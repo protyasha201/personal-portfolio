@@ -106,7 +106,7 @@ const Projects = () => {
             </div>
 
             <div>
-                <h1 className="text-cornBlue montserrat">Full-Stack</h1>
+                <h1 className="text-cornBlue montserrat">Web Apps</h1>
                 <div className="projectsContainer">
                     {
                         webApps.map(project =>
@@ -125,7 +125,7 @@ const Projects = () => {
             </div>
 
             <div>
-                <h1 className="text-cornBlue montserrat">Full-Stack</h1>
+                <h1 className="text-cornBlue montserrat">Api Based</h1>
                 <div className="projectsContainer">
                     {
                         apiBased.map(project =>
