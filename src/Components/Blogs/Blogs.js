@@ -20,7 +20,7 @@ const Blogs = () => {
                     <div key={blog.title} className="width-80 blogs">
                         <h1 className="text-coral roboto-condensed">{blog.title}</h1>
                         <p className="text-gray montserrat">{blog.des}</p>
-                        <a target="_blank" className="borderWhite p-5 brr-5" href={`${blog.link}`}>View Blog</a>
+                        <a rel="noreferrer" target="_blank" className="borderWhite p-5 brr-5" href={`${blog.link}`}>View Blog</a>
                     </div>)
                 }
             </div>
