@@ -110,7 +110,7 @@ const Skills = () => {
                     <h1 className="roboto-condensed f-30 text-cornBlue">Frontend</h1>
                     {
                         frontendSkills.map(skills =>
-                            <div className="montserrat text-coral d-flex align-center">
+                            <div key={skills.title} className="montserrat text-coral d-flex align-center">
                                 <p className="width-20">{skills.title}</p>
                                 <div className="lineContainer borderWhite brr-10">
                                     <div className={`width-${skills.completed} line`}></div>
@@ -123,7 +123,7 @@ const Skills = () => {
                     <h1 className="roboto-condensed f-30 text-cornBlue">Backend</h1>
                     {
                         backendSkills.map(skills =>
-                            <div className="montserrat text-coral d-flex align-center">
+                            <div key={skills.title} className="montserrat text-coral d-flex align-center">
                                 <p className="width-20">{skills.title}</p>
                                 <div className="lineContainer borderWhite brr-10">
                                     <div className={`width-${skills.completed} line`}></div>
@@ -136,7 +136,7 @@ const Skills = () => {
                     <h1 className="roboto-condensed f-30 text-cornBlue">Libraries and Frameworks</h1>
                     {
                         frameWorkSkills.map(skills =>
-                            <div className="montserrat text-coral d-flex align-center">
+                            <div key={skills.title} className="montserrat text-coral d-flex align-center">
                                 <p className="width-20">{skills.title}</p>
                                 <div className="lineContainer borderWhite brr-10">
                                     <div className={`width-${skills.completed} line`}></div>
@@ -149,7 +149,7 @@ const Skills = () => {
                     <h1 className="roboto-condensed f-30 text-cornBlue">Extras</h1>
                     {
                         extraSkills.map(skills =>
-                            <div className="montserrat text-coral d-flex align-center">
+                            <div key={skills.title} className="montserrat text-coral d-flex align-center">
                                 <p className="width-20">{skills.title}</p>
                                 <div className="lineContainer borderWhite brr-10">
                                     <div className={`width-${skills.completed} line`}></div>
