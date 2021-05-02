@@ -20,7 +20,7 @@
 .blogs{
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px rgba(0,0,0, .4);
+    box-shadow: 1px 1px 10px rgba(0,0,0, .5);
     transition: all .3s ease-out;
 }
 .blogs:hover{
@@ -34,4 +34,13 @@
 .blogs a:hover{
     background-color: white;
     color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .blogsContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blogs{
+        width: 90%;
+    }
 }
