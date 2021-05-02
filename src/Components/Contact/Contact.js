@@ -20,10 +20,10 @@ const Contact = () => {
                 <div className="width-50 m-align">
                     <h3 className="text-center">Social Profiles</h3>
                     <div className="d-flex justify-content-evenly">
-                        <a href="#">
+                        <a href="https://www.facebook.com/joe.guy.503645/">
                             <FontAwesomeIcon className="socialIcons text-cornBlue f-30" icon={faFacebook} />
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/protyasha_201/">
                             <FontAwesomeIcon className="socialIcons text-coral f-30" icon={faInstagram} />
                         </a>
                         <a href="#">

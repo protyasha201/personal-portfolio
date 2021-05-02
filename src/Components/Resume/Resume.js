@@ -27,13 +27,15 @@ const Resume = () => {
     return (
         <section className="resumeSection  width-70 m-align brr-10">
             <div className="d-flex justify-content-space resumeHead">
-                <h1 className="robot-condensed text-white titleResume">Resume</h1>
+                <h1 className="robot-condensed text-white titleResume">Resume
+                <a href="https://drive.google.com/file/d/1Bo83ahVAKJFbAxG-ijat6EbH_qlTlY1Y/view?usp=sharing" className="downloadResumeBtn">Download</a>
+                </h1>
                 <div className="d-flex align-center justify-content-evenly borderWhite width-20 p-5 brr-10 profiles">
-                    <a className="profileIcons text-coral f-30" href="#">
+                    <a className="profileIcons text-coral f-30" href="https://github.com/protyasha201">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <h3 className="text-white montserrat">Profiles</h3>
-                    <a className="profileIcons text-cornBlue f-30" href="#">
+                    <a className="profileIcons text-cornBlue f-30" href="https://www.linkedin.com/in/protyasha-roy-5a45a6203/">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>

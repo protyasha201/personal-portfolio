@@ -25,9 +25,9 @@ const Home = () => {
                     <AnimatedTypingComponent />
                     <p className="text-white">Full Stack Web Developer</p>
                     <div className="d-flex justify-content-evenly contactLinks">
-                        <a href="#" ><FontAwesomeIcon icon={faFacebook} className="text-crimson" /></a>
+                        <a href="https://www.facebook.com/joe.guy.503645/" ><FontAwesomeIcon icon={faFacebook} className="text-crimson" /></a>
                         <a href="#" ><FontAwesomeIcon icon={faTwitter} className="text-coral" /></a>
-                        <a href="" ><FontAwesomeIcon icon={faInstagram} className="text-cornBlue" /></a>
+                        <a href="https://www.instagram.com/protyasha_201/" ><FontAwesomeIcon icon={faInstagram} className="text-cornBlue" /></a>
                     </div>
                 </div>
             </div>
