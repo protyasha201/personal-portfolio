@@ -8,6 +8,14 @@ const Skills = () => {
             completed: '85'
         },
         {
+            title: 'SASS',
+            completed: '90'
+        },
+        {
+            title: 'Styled-components',
+            completed: '85'
+        },
+        {
             title: 'CSS3',
             completed: '80'
         },
@@ -52,6 +60,10 @@ const Skills = () => {
         {
             title: 'BootStrap',
             completed: '80'
+        },
+        {
+            title: 'React BootStrap',
+            completed: '75'
         },
         {
             title: 'Redux',
