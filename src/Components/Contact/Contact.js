@@ -2,12 +2,24 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 import { faMailBulk, faMapMarker, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import emailjs from 'emailjs-com';
 import './Contact.css';
 
+
 const Contact = () => {
-    const sendMessage = () => {
-        alert('Message sent successfully');
+
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm('service_agr6ejb', 'template_ylbxz0k', e.target, 'user_S6woBqlbuBDFAiHcuDGON')
+            .then((result) => {
+                console.log(result.text);
+                alert('Email send successfully');
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset();
     }
+
     return (
         <section className="d-flex width-70 m-align brr-10 p-20 contactSection montserrat text-white">
             <div className="d-flex flex-col generalContact">
@@ -34,7 +46,7 @@ const Contact = () => {
             </div>
             <div className="width-50">
                 <h1 className="text-coral">Let's Talk</h1>
-                <form onSubmit={sendMessage} className="d-flex flex-col form">
+                <form onSubmit={sendEmail} className="d-flex flex-col form">
                     <input type="text" name="name" placeholder="Your Name" required />
                     <input type="text" name="email" placeholder="Your e-Mail" required />
                     <textarea className="textarea" type="text" name="message" placeholder="Type Message" required />
