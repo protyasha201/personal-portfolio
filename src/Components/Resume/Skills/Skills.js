@@ -4,6 +4,14 @@ import './Skills.css';
 const Skills = () => {
     const frontendSkills = [
         {
+            title: 'JavaScript ES6',
+            completed: '90'
+        },
+        {
+            title: 'Typescript',
+            completed: '85'
+        },
+        {
             title: 'HTML5',
             completed: '85'
         },
@@ -18,10 +26,6 @@ const Skills = () => {
         {
             title: 'CSS3',
             completed: '80'
-        },
-        {
-            title: 'JavaScript',
-            completed: '90'
         },
     ]
 
@@ -112,6 +116,14 @@ const Skills = () => {
             title: 'Firebase',
             completed: '85'
         },
+        {
+            title: 'OOP',
+            completed: '80'
+        },
+        {
+            title: 'Data Structure & Algorithm',
+            completed: '70'   
+        }
     ]
 
     return (

@@ -8,11 +8,11 @@ const Resume = () => {
     const experiences = [
         {
             title: 'Frontend Web developer',
-            des: `I am working for 2 years developing frontend websites. Learnt to add useful and creative sections. Developing user friendly UI's`
+            des: `I am working for 2 years developing frontend websites. Learnt to add useful and creative sections. Developing user friendly UI's and UX.`
         },
         {
             title: 'Backend Web developer',
-            des: `Deploying backend codes deploying database in a live site using Heroku. 1 years of work experience in backend. Made 5 websites using backend including this one.`
+            des: `Deploying backend codes deploying database in a live site using Heroku. 1 years of work experience in backend. Made 5+ websites using backend including this one.`
         },
         {
             title: 'Web Designer',
