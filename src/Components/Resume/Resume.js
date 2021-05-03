@@ -28,7 +28,7 @@ const Resume = () => {
         <section className="resumeSection  width-70 m-align brr-10">
             <div className="d-flex justify-content-space resumeHead">
                 <h1 className="robot-condensed text-white titleResume">Resume
-                <a href="https://drive.google.com/file/d/1Bo83ahVAKJFbAxG-ijat6EbH_qlTlY1Y/view?usp=sharing" className="downloadResumeBtn2">Download</a>
+                <a href="https://drive.google.com/file/d/1GFh6qtqA8mDyuPN_0TSZSQbZx3hd0O3G/view?usp=sharing" className="downloadResumeBtn2">Download</a>
                 </h1>
                 <div className="d-flex align-center justify-content-evenly borderWhite width-20 p-5 brr-10 profiles">
                     <a className="profileIcons text-coral f-30" href="https://github.com/protyasha201">

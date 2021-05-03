@@ -37,7 +37,7 @@ const Home = () => {
                     {
                         <p>{aboutMe.description}</p>
                     }
-                    <a href="https://drive.google.com/file/d/1Bo83ahVAKJFbAxG-ijat6EbH_qlTlY1Y/view?usp=sharing" download className="downloadResumeBtn">Download Resume</a>
+                    <a href="https://drive.google.com/file/d/1GFh6qtqA8mDyuPN_0TSZSQbZx3hd0O3G/view?usp=sharing" download className="downloadResumeBtn">Download Resume</a>
                 </div>
                 <div className="width-50 montserrat d-flex shortContact">
                     <div className="width-50">
