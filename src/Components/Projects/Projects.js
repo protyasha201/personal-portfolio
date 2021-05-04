@@ -79,15 +79,15 @@ const Projects = () => {
     return (
         <section className="projectsSection">
             <div className="projectsHeader d-flex justify-content-space align-center">
-                <h1 className="roboto-condensed headTitle text-white">Projects</h1>
-                <a className="text-cornBlue f-30 hoverIcon transition" href="https://github.com/protyasha201">
+                <h1 className="roboto-condensed headTitle text-coral">Projects</h1>
+                <a className="text-white f-30 hoverIcon transition" href="https://github.com/protyasha201">
                     <span className="f-20 text-coral m-r-10">Codes</span>
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
             </div>
 
             <div>
-                <h1 className="text-cornBlue montserrat">Full-Stack</h1>
+                <h1 className="text-white montserrat">Full-Stack</h1>
                 <div className="projectsContainer">
                     {
                         fullStack.map(project =>
@@ -106,7 +106,7 @@ const Projects = () => {
             </div>
 
             <div>
-                <h1 className="text-cornBlue montserrat">Web Apps</h1>
+                <h1 className="text-white montserrat">Web Apps</h1>
                 <div className="projectsContainer">
                     {
                         webApps.map(project =>
@@ -125,7 +125,7 @@ const Projects = () => {
             </div>
 
             <div>
-                <h1 className="text-cornBlue montserrat">Api Based</h1>
+                <h1 className="text-white montserrat">Api Based</h1>
                 <div className="projectsContainer">
                     {
                         apiBased.map(project =>

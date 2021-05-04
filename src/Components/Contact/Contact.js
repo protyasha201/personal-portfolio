@@ -26,17 +26,17 @@ const Contact = () => {
                 <h1 className="text-coral">Contact Me <br /><span className="text-white">If You Want To Know Something More.</span></h1>
                 <div className="d-flex flex-col">
                     <p><FontAwesomeIcon className="icons text-coral" icon={faMailBulk} />protyasha0999@gmail.com</p>
-                    <p><FontAwesomeIcon className="icons text-white" icon={faPhone} />01866557428</p>
-                    <p><FontAwesomeIcon className="icons text-crimson" icon={faMapMarker} />Dinajpur,Bangladesh</p>
+                    <p><FontAwesomeIcon className="icons text-coral" icon={faPhone} />01866557428</p>
+                    <p><FontAwesomeIcon className="icons text-coral" icon={faMapMarker} />Dinajpur,Bangladesh</p>
                 </div>
                 <div className="width-50 m-align">
-                    <h3 className="text-center">Social Profiles</h3>
+                    <h3 className="text-center text-coral">Social Profiles</h3>
                     <div className="d-flex justify-content-evenly">
                         <a href="https://www.facebook.com/joe.guy.503645/">
-                            <FontAwesomeIcon className="socialIcons text-cornBlue f-30" icon={faFacebook} />
+                            <FontAwesomeIcon className="socialIcons text-white f-30" icon={faFacebook} />
                         </a>
                         <a href="https://www.instagram.com/protyasha_201/">
-                            <FontAwesomeIcon className="socialIcons text-coral f-30" icon={faInstagram} />
+                            <FontAwesomeIcon className="socialIcons text-white f-30" icon={faInstagram} />
                         </a>
                         <a href="#">
                             <FontAwesomeIcon className="socialIcons text-white f-30" icon={faTwitter} />
@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="width-50">
-                <h1 className="text-coral">Let's Talk</h1>
+                <h1 className="text-=white">Let's Talk</h1>
                 <form onSubmit={sendEmail} className="d-flex flex-col form">
                     <input type="text" name="name" placeholder="Your Name" required />
                     <input type="text" name="email" placeholder="Your e-Mail" required />

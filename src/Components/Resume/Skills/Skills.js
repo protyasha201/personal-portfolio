@@ -13,7 +13,7 @@ const Skills = () => {
         },
         {
             title: 'HTML5',
-            completed: '85'
+            completed: '95'
         },
         {
             title: 'SASS',
@@ -25,7 +25,7 @@ const Skills = () => {
         },
         {
             title: 'CSS3',
-            completed: '80'
+            completed: '90'
         },
     ]
 
@@ -79,7 +79,7 @@ const Skills = () => {
         },
     ]
 
-    const extraSkills = [
+    const tools = [
         {
             title: 'NPM',
             completed: '95'
@@ -123,15 +123,19 @@ const Skills = () => {
         {
             title: 'Data Structure & Algorithm',
             completed: '70'   
+        },
+        {
+            title: 'Figma',
+            completed: '80'
         }
     ]
 
     return (
         <section className="skillsSection">
-            <h1 className="text-white f-30 text-center">SKILLS</h1>
+            <h1 className="text-coral f-30 text-center">SKILLS</h1>
             <div className="skills">
                 <div className="d-flex flex-col skillsContainer">
-                    <h1 className="roboto-condensed f-30 text-cornBlue">Frontend</h1>
+                    <h1 className="roboto-condensed f-30 text-white">Frontend</h1>
                     {
                         frontendSkills.map(skills =>
                             <div key={skills.title} className="montserrat text-coral d-flex align-center">
@@ -144,7 +148,7 @@ const Skills = () => {
                 </div>
 
                 <div className="d-flex flex-col skillsContainer">
-                    <h1 className="roboto-condensed f-30 text-cornBlue">Backend</h1>
+                    <h1 className="roboto-condensed f-30 text-white">Backend</h1>
                     {
                         backendSkills.map(skills =>
                             <div key={skills.title} className="montserrat text-coral d-flex align-center">
@@ -157,7 +161,7 @@ const Skills = () => {
                 </div>
 
                 <div className="d-flex flex-col skillsContainer">
-                    <h1 className="roboto-condensed f-30 text-cornBlue">Libraries and Frameworks</h1>
+                    <h1 className="roboto-condensed f-30 text-white">Libraries and Frameworks</h1>
                     {
                         frameWorkSkills.map(skills =>
                             <div key={skills.title} className="montserrat text-coral d-flex align-center">
@@ -170,9 +174,9 @@ const Skills = () => {
                 </div>
 
                 <div className="d-flex flex-col skillsContainer">
-                    <h1 className="roboto-condensed f-30 text-cornBlue">Extras</h1>
+                    <h1 className="roboto-condensed f-30 text-white">Other Tools</h1>
                     {
-                        extraSkills.map(skills =>
+                        tools.map(skills =>
                             <div key={skills.title} className="montserrat text-coral d-flex align-center">
                                 <p className="width-20">{skills.title}</p>
                                 <div className="lineContainer borderWhite brr-10">

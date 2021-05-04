@@ -43,6 +43,7 @@
 }
 .socialIcons:hover{
     transform: translate(0, -3px);
+    color: coral;
 }
 .generalContact{
     width: 50%;

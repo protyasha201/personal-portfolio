@@ -46,7 +46,7 @@ const Resume = () => {
                     {
                         experiences.map(experience =>
                             <div className="experiences width-80 p-20" key={experience.title}>
-                                <h2 className="text-crimson">{experience.title}</h2>
+                                <h2 className="text-white">{experience.title}</h2>
                                 <p className="text-gray">{experience.des}</p>
                             </div>)
                     }
