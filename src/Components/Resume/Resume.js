@@ -35,7 +35,7 @@ const Resume = () => {
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <h3 className="text-white montserrat">Profiles</h3>
-                    <a className="profileIcons text-cornBlue f-30" href="https://www.linkedin.com/in/protyasha-roy-5a45a6203/">
+                    <a className="profileIcons text-cornBlue f-30" href="https://www.linkedin.com/in/protyasha-roy/">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>

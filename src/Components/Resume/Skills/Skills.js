@@ -29,26 +29,7 @@ const Skills = () => {
         },
     ]
 
-    const backendSkills = [
-        {
-            title: 'MongoDb',
-            completed: '85'
-        },
-        {
-            title: 'Node Js',
-            completed: '95'
-        },
-        {
-            title: 'Mongoose',
-            completed: '75'
-        },
-        {
-            title: 'Express Js',
-            completed: '90'
-        },
-    ]
-
-    const frameWorkSkills = [
+    const frameworks = [
         {
             title: 'React Js',
             completed: '85'
@@ -79,17 +60,40 @@ const Skills = () => {
         },
     ]
 
+    const backendSkills = [
+        {
+            title: 'MongoDb',
+            completed: '85'
+        },
+        {
+            title: 'Node Js',
+            completed: '95'
+        },
+        {
+            title: 'Mongoose',
+            completed: '75'
+        },
+        {
+            title: 'Express Js',
+            completed: '90'
+        },
+        {
+            title: 'API(REST)',
+            completed: '95'
+        }
+    ]
+
     const tools = [
         {
-            title: 'NPM',
+            title: 'Jira',
             completed: '95'
         },
         {
             title: 'Git',
-            completed: '85'
+            completed: '90'
         },
         {
-            title: 'REST, HTTP',
+            title: 'NPM',
             completed: '95'
         },
         {
@@ -106,7 +110,7 @@ const Skills = () => {
         },
         {
             title: 'VS Code',
-            completed: '80'
+            completed: '90'
         },
         {
             title: 'Netlify',
@@ -122,11 +126,15 @@ const Skills = () => {
         },
         {
             title: 'Data Structure & Algorithm',
-            completed: '70'   
+            completed: '75'   
         },
         {
             title: 'Figma',
-            completed: '80'
+            completed: '85'
+        },
+        {
+            title: 'VCS(Version Control System)',
+            completed: '95'
         }
     ]
 
@@ -161,9 +169,9 @@ const Skills = () => {
                 </div>
 
                 <div className="d-flex flex-col skillsContainer">
-                    <h1 className="roboto-condensed f-30 text-white">Libraries and Frameworks</h1>
+                    <h1 className="roboto-condensed f-30 text-white">Backend</h1>
                     {
-                        frameWorkSkills.map(skills =>
+                        frameworks.map(skills =>
                             <div key={skills.title} className="montserrat text-coral d-flex align-center">
                                 <p className="width-20">{skills.title}</p>
                                 <div className="lineContainer borderWhite brr-10">
